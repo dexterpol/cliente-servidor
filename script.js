@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const email = document.getElementById("email").value;
     const senha = document.getElementById("senha").value;
 
-    const response = await fetch("https://thinkable-hulking-persimmon.glitch.me/cadastro", {
+    const response = await fetch("https://thinkable-hulking-persimmon.glitch.me", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
